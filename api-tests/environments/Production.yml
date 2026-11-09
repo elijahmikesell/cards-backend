@@ -2,7 +2,7 @@
 name: Production
 variables:
   - name: baseURL
-    value: https://your-hostname
+    value: https://cards-emikesell.duckdns.org
   - name: login
     value: johnaedo
   - name: password

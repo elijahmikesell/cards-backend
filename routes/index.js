@@ -7,9 +7,9 @@ router.get('/ping', (req, res) => {
   res.status(200).json({ message: 'Hello World' });
 });
 
+router.use('/docs', require('./docs'));
 router.use('/auth', require('./auth'));
 router.use('/users', require('./users'));
-// Add this line to handle card requests:
 router.use('/cards', require('./cards'));
 
 module.exports = router;
